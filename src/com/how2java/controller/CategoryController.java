@@ -29,5 +29,11 @@ public class CategoryController {
 		mav.setViewName("listCategory");
 		return mav;
 	}
+	@RequestMapping("sayHi")
+	public ModelAndView sayHi(){
+		ModelAndView mav = new ModelAndView();
 
+		mav.setViewName("sayHi");
+		return mav;
+	}
 }
